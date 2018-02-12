@@ -5,11 +5,9 @@ Instalação dos pacotes:
 Gerar slides:
 
     cd slides
-    prez git_symfony  output/git_symfony --theme=league
+    prez symfony docs/symfony --theme=league
 
 Para ver localmente:
 
     cd slides
-    prez git_symfony  output/git_symfony --theme=league --serve --watch
-
-Entrar na pasta output e comitar branch master.
+    prez git_symfony docs/symfony --theme=league --serve --watch
