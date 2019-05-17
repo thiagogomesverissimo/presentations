@@ -1,13 +1,21 @@
-Instalação dos pacotes:
+## presentations
 
-    sudo npm install -g prez
+É necessário que tenha o node instalado na máquina.
+Os slides são gerados usando:
+ 
+ - [https://github.com/byteclubfr/prez](https://github.com/byteclubfr/prez)
 
-Gerar slides:
+Os arquivos markdown são criandos na pasta *source* e são processados
+pelo *prez* e transformados em html para a apresentação em si na pasta *docs*.
 
-    cd slides
-    prez symfony docs/symfony --theme=league
+## Instalado dependências
 
-Para ver localmente:
+`npm install`
 
-    cd slides
-    prez git_symfony docs/symfony --theme=league --serve --watch
+Rodar o Lazy Presentator:
+
+```bash
+    ./present.sh git
+```
+
+O seu browser deve abrir com sua apresentação já gerada
