@@ -15,7 +15,7 @@ pelo *prez* e transformados em html para a apresentação em si na pasta *docs*.
 Rodar o Lazy Presentator:
 
 ```bash
-    ./present.sh git
+    ./present.sh versionamento_de_projetos_em_drupal/2016-fatec-sao-roque
 ```
 
 O seu browser deve abrir com sua apresentação já gerada
