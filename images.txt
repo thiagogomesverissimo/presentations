@@ -1,0 +1,5 @@
+computer_science_education.png: https://fr.m.wikipedia.org/wiki/Fichier:Computer_science_education.png
+dashboard.jpg: https://commons.wikimedia.org/wiki/File:Infruid%27s_Self-Service_BI_Tool_Dashboard.jpg
+digital_learning.jpg: https://www.flickr.com/photos/opensourceway/8288335386/
+moodle.jpg: https://commons.wikimedia.org/wiki/File:Moodle-logo-large.jpg
+plugin.jpg: https://publicdomainvectors.org/en/free-clipart/Plugin-icon/59375.html
