@@ -1,10 +1,28 @@
 \section{Introduction}
 
 \begin{frame}{Introduction}
-    In response to the increasing demand for advanced learning analytics in educational settings, this project proposes a discussion on ways to enrich the information available about learners in the Moodle learning management system by incorporating external data sources.
-    \cite{byron2012usingdrupal}
+    In response to the increasing demand for advanced learning analytics in educational settings, 
+    this project proposes a discussion on ways to enrich the information available about learners 
+    in the Moodle learning management system by incorporating external data sources.
+    \cite{park2015development}
 \end{frame}
 
+\subsection{Context}
+\begin{frame}{Context}
+    We are constructing a dashboard in Moodle to display the results of predictive models, 
+    such as the probability of dropout in a course. 
+    To achieve this, we utilize the built-in Moodle Analytics API, 
+    which considers indicators as independent variables and the target as the dependent variable.
+\end{frame}
+
+\begin{frame}{Context}
+    Moodle comes with default indicators and targets, and it is possible to extend its 
+    classes to define custom indicators and targets based on Moodle data. 
+    However, to increase the model's accuracy, we aim to incorporate external 
+    data into Moodle to be used as additional indicators and targets.
+\end{frame}
+
+\subsection{Research Questions}
 \begin{frame}{Research Questions}
     \begin{enumerate}[<+-|alert@+>]\color{gray}
         \item What are the methods for integrating external data related to students, and what privacy concerns arise from this data?
