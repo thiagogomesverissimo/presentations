@@ -1,16 +1,27 @@
 \section{Methodology}
 
 \begin{frame}{Methodology}
-    Our approach was to create a plugin to handle our questions:
+    Our approach was to create a Moodle plugin with the following capabilities to handle our Research Questions:
 
-    \begin{enumerate}
-        \item A local schema for saving external data locally
-        \item New indicators and targets based on the data stored by plugin.
-    \end{enumerate}
-
+    \begin{figure}
+        \centering
+        \begin{minipage}{.3\textwidth}
+          \centering
+          \includegraphics[width=0.99\textwidth]{../../images/quebracabeca.png}
+        \end{minipage}%
+        \begin{minipage}{.7\textwidth}
+            \begin{enumerate}
+                \item Plugin tables for storing external data locally
+                \item PHP routines to populate external data into plugin tables
+                \item New Indicators and Target classes that use the data stored by the plugin
+                \item A page or a block for building the dashboard
+            \end{enumerate}
+        \end{minipage}
+    \end{figure}
 \end{frame}
 
-\begin{frame}{Plugin data}
+\begin{frame}{Information Systems}
+    Some data stored in external University Information Systems:
     \begin{itemize}[<+-|alert@+>]\color{gray}
         \item Gender
         \item Race
@@ -20,13 +31,7 @@
         \item Student Aid and Scholarships
         \item Employment status (whether the student has an external job)
         \item Socioeconomic data
+        \item Frequency of book checkouts on University Library
     \end{itemize}
 \end{frame}
-
-%\begin{frame}{plugin}
-%   %% Our plugin needs to implement an analyser class to prepare data for indicators and targets.
-%    \begin{lstlisting}[language=Java]
-%        // single line comment
-%    \end{lstlisting}
-%\end{frame}
 

@@ -1,11 +1,20 @@
 \section{Discussion}
 
 \begin{frame}{Discussion}
-    Storing sensitive student data, such as gender, race, city, grade, admission method, 
-    scholarship status, employment status, reprobations, and socioeconomic information, 
-    in plugin tables requires careful consideration of data security and 
-    privacy (in human rights sense). 
-    Some possible isses:
+
+    \begin{figure}
+        \centering
+        \begin{minipage}{.25\textwidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{../../images/privacy.png}
+        \end{minipage}%
+        \begin{minipage}{.7\textwidth}
+            Storing sensitive student data, as in the previous case, requires careful consideration 
+            of data security and privacy (in human rights sense). 
+            Some possible isses:
+        \end{minipage}
+    \end{figure}
+
     \begin{itemize}[<+-|alert@+>]\color{gray}
         \item Compliance with Regulations: Ensure compliance with data protection regulations, such as GDPR, FERPA, or other relevant laws
         \item Access Control
@@ -14,3 +23,51 @@
     \end{itemize}
     
 \end{frame}
+
+\begin{frame}{Our proposal}
+    The traditional approach used to build dashboards (we are currently confirming through a systematic review):
+
+    \begin{table}[]
+        \begin{tabular}{|l|l|l|} \hline
+                 & Can choose Features? & Can see Predictions?\\ \hline
+         Student & No                   & No                  \\ \hline
+         Teacher & No                   & Yes                 \\ \hline
+         Manager & Yes                  & Yes                 \\ \hline
+        \end{tabular}
+    \end{table}
+
+    \pause
+    Our proposal: Student in Control Perspective
+    \pause
+    \begin{table}[]
+        \begin{tabular}{|l|l|l|} \hline
+                 & Can choose Features? & Can see Predictions?    \\ \hline
+         Student & \textbf{Yes}         & \textbf{Yes}            \\ \hline
+         Teacher & No                   & Maybe (student decides) \\ \hline
+         Manager & No                   & No                      \\ \hline
+        \end{tabular}
+    \end{table}
+
+\end{frame}
+
+\begin{frame}{Software Engineering}
+
+    \begin{figure}
+        \centering
+        \begin{minipage}{.7\textwidth}
+            Some issues this approach brings to software engineering:
+        \end{minipage}%
+        \begin{minipage}{.25\textwidth}
+          \centering
+          \includegraphics[width=0.8\textwidth]{../../images/work-workers-men.jpg}
+        \end{minipage}
+    \end{figure}
+
+    \begin{itemize}[<+-|alert@+>]\color{gray}
+        \item The Moodle Analytics API is designed primarily for teachers and managers, so a lot of 
+              work is needed on plugins to empower students with similar capabilities
+        \item The possibility for each student to choose their own indicators requires 
+              rebuilding the model many times, which can impact performance
+    \end{itemize}
+\end{frame}
+
