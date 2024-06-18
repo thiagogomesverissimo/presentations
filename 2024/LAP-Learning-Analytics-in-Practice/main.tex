@@ -13,11 +13,23 @@
 \setbeamertemplate{background canvas}[vertical shading][bottom=darkgray,top=black]
 \setbeamerfont{alerted text}{series=\bfseries} %make alerted text bold
 \setbeamercolor{alerted text}{fg=blue} %change the font color
+\setbeamertemplate{footline}[frame number]%numerar página
+
+%%% capa
+\setbeamerfont{author}{size=\scriptsize,series=\bfseries,parent=structure}
+\setbeamerfont{date}{size=\scriptsize,series=\bfseries,parent=structure}
 
 \title[Enhancing Moodle with External Data Integration]{Enhancing Moodle with External Data Integration:\\A Case Study at the University of São Paulo}
 \author{Thiago Gomes Veríssimo \\ Ewout ter Haar \\ Paulo Roberto Miranda Meirelles}
 \institute{University of São Paulo}
 \date{19 June 2024}
+
+% logo of my university
+\titlegraphic{
+    \small Learning Analytics in Practice 2024
+    \includegraphics[width=2cm]{../../images/logo_usp_branco.png}\hspace*{4.75cm}~%
+    \includegraphics[width=2cm]{../../images/lap24.png}
+}
 
 \begin{document}
 
