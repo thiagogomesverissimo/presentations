@@ -2,4 +2,7 @@ computer_science_education.png: https://fr.m.wikipedia.org/wiki/Fichier:Computer
 dashboard.jpg: https://commons.wikimedia.org/wiki/File:Infruid%27s_Self-Service_BI_Tool_Dashboard.jpg
 digital_learning.jpg: https://www.flickr.com/photos/opensourceway/8288335386/
 moodle.jpg: https://commons.wikimedia.org/wiki/File:Moodle-logo-large.jpg
-plugin.jpg: https://publicdomainvectors.org/en/free-clipart/Plugin-icon/59375.html
+plugin.jpg: https://openclipart.org/detail/311375/power-plug-silhouette
+quebracabeca.jpg: https://openclipart.org/detail/307423/plugin-icon-2
+privacy.png: https://publicdomainvectors.org/pt/vetorial-gratis/Por-favor-respeitem-minha-privacidade/78735.html
+work-workers-men.jpg: https://www.peakpx.com/496526/2-man-working-image
