@@ -1,0 +1,138 @@
+\begin{frame}{Introduction}
+    \begin{itemize}
+        \item Universities have multiple organizational levels, including:
+        \begin{itemize}
+            \item Departments, research groups, student organizations.
+            \item Administrative units, postgraduate programs, laboratories.
+        \end{itemize}
+        \item Each level requires a dedicated online presence.
+        \item Traditional solutions impose a high maintenance burden on users and IT teams.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Problems with Traditional Solutions}
+    % https://media.istockphoto.com/id/1301796525/photo/female-engineer-trying-to-understand-network-mess.jpg?s=612x612&w=0&k=20&c=fo1kKxX-hFHbun2Q9BRwP1UTs2so2FXZe_3UYGlhJds=
+
+    \begin{columns}
+        \column{0.4\textwidth}
+            \includegraphics[width=5cm]{../../images/rack.jpg}
+        \column{0.65\textwidth}
+            \begin{itemize}
+                \item Shared servers and virtual machines require continuous maintenance.
+                \item Users fail to update CMS platforms, leading to security vulnerabilities.
+                \item Inconsistent configurations create security risks and technical debt.
+                \item High support demand from faculty, students, and staff.
+            \end{itemize}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{The Case of FFLCH USP}
+    \begin{columns}
+        \column{0.4\textwidth}
+            \includegraphics[width=5cm]{../../images/fflch.jpg}
+        \column{0.65\textwidth}
+            \begin{itemize}
+                \item Large academic unit:
+                \begin{itemize}
+                    \item 10,000 undergraduate students.
+                    \item 3,000 graduate students.
+                    \item 300 administrative staff.
+                    \item 600 faculty members.
+                \end{itemize}
+                \item Previous web hosting solutions:
+                \begin{itemize}
+                    \item Shared hosting and standalone virtual machines.
+                    \item No centralized management, security issues, lack of standardization.
+                \end{itemize}
+            \end{itemize}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Why We Chose Drupal}
+    \begin{itemize}
+        \item Open-source CMS with a strong community and regular security updates.
+        \item Highly customizable with modules and themes.
+        \item Scalable multi-site capabilities.
+        \item Secure authentication and role-based access control.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{The Solution - Drupal}
+    \begin{itemize}
+        \item Development of a custom Drupal distribution (Drupal profile).
+        \item Centralized management of all university sites.
+        \item Standardized security policies and updates.
+        \item Scalable infrastructure supporting over 300+ sites.
+    \end{itemize}
+    \includegraphics[width=2cm]{../../images/drupal.png}
+\end{frame}
+
+\begin{frame}{Features of Our Drupal Implementation}
+    \begin{itemize}
+        \item Pre-configured modules for academic needs.
+        \item Multi-site management with shared resources.
+        \item Automated updates, backups, and security patches.
+        \item Integration with university local systems.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Benefits of the Solution}
+    \begin{itemize}
+        \item Standardization simplifies user support.
+        \item Reduced security risks with centralized updates
+        \item To ensure security patches are applied.
+        \item Custom integrations with internal university systems (e.g., payments, authentication, certification).
+        \item Self-service site creation with automated deployment (Automated site provisioning via Aegir and BOA).
+        \item Centralized access control via university-wide authentication (OAuth).
+        \item Custom security policies enforced across all sites (example: captcha in webform).
+        \item We have a dedicated support and development team specialized in Drupal.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Custom Module Development}
+    \begin{itemize}
+        \item Payment processing and billing using local payment system.
+        \item Certification and document generation for webform (generated contributions to the Drupal community).
+        \item To control the content over of all sites, enabling general newsletter creation, and report generation (Helping the communications team retrieve content from all sites and better promote important information.).
+        \item Audit module
+        \item Report module
+        \item Custom policies module
+    \end{itemize}
+    \vfill
+    \footnotesize{Contributions to the Webform module: \href{https://www.drupal.org/project/webform/issues/3165998}{Issue 3165998}, \href{https://www.drupal.org/project/webform/issues/3072170}{Issue 3072170}}
+\end{frame}
+
+\begin{frame}{User Training and Support}
+    \begin{itemize}
+        \item Regular training sessions for faculty, staff, and students.
+        \item Comprehensive online documentation (videos and tutorials).
+        \item Dedicated support channels for troubleshooting.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Challenges and Lessons Learned}
+    \begin{itemize}
+        \item Initial resistance to change from users.
+        \item Understanding Drupal API
+        \item Balancing customization with maintainability.
+        \item Ensuring security without limiting usability.
+        \item Managing user expectations and feature requests.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Future Plans}
+    \begin{itemize}
+        \item Expand automation for self-service administration.
+        \item Enhance user experience and accessibility.
+        \item Increase integration with additional university services.
+        \item Continue open-source development and contributions.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Conclusion}
+    \begin{itemize}
+        \item Drupal provides a scalable, secure, and flexible solution for universities.
+        \item Meets the needs for high-volume site creation and management.
+        \item Enables integrations, automation, and better support for content managers.
+    \end{itemize}
+\end{frame}
